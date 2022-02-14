@@ -17,13 +17,14 @@
                 <a class="nav-link" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Books</a>
+                <a class="nav-link" href="books.php">Books</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./about.php">About</a>
+                <a class="nav-link" href="about.php">About</a>
             </li>
         </ul>
     </nav>
     <div class="container">
+        <br>
         <div class="row">
             
