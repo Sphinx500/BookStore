@@ -39,7 +39,26 @@
 
 
 <div class="col-md-7">
-    Book Table
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Cover</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>Learn PHP</td>
+                <td>Image.jpg</td>
+                <td>Seleccionar |   Borrar</td>
+            </tr>
+        </tbody>
+
+    </table>
 </div>
 
 
