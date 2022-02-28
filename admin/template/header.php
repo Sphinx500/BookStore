@@ -12,14 +12,14 @@
 </head>
 
 <body>
-
+    <?php $url = "http://".$_SERVER['HTTP_HOST']."/projectweb"?>
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">Website Admin</a>
-            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="<?php echo $url."/admin/inicio.php"?>">Home</a>
             <a class="nav-item nav-link" href="#">Books</a>
             <a class="nav-item nav-link" href="#">Log Out</a>
-            <a class="nav-item nav-link" href="#">Website</a>
+            <a class="nav-item nav-link" href="<?php echo $url;?>">Website</a>
         </div>
     </nav>
     <br>
