@@ -17,8 +17,8 @@
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">Website Admin</a>
             <a class="nav-item nav-link" href="<?php echo $url."/admin/inicio.php"?>">Home</a>
-            <a class="nav-item nav-link" href="#">Books</a>
-            <a class="nav-item nav-link" href="#">Log Out</a>
+            <a class="nav-item nav-link" href="<?php echo $url."/admin/section/products.php"?>">Books</a>
+            <a class="nav-item nav-link" href="<?php echo $url."/admin/section/close.php"?>">Log Out</a>
             <a class="nav-item nav-link" href="<?php echo $url;?>">Website</a>
         </div>
     </nav>
