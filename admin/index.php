@@ -1,3 +1,9 @@
+<?php
+if ($_POST){
+  header('Location:inicio.php');
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -22,19 +28,21 @@
               Login
             </div>
             <div class="card-body">
-              <form>
+
+              <form method="POST">
               <div class = "form-group">
-              <label for="exampleInputEmail1">Username</label>
+              <label>Username</label>
               <input type="text" class="form-control" name="username" placeholder="Enter username">
               <small id="userHelp" class="form-text text-muted">We'll never share your access.</small>
               </div>
 
               <div class="form-group">
-              <label for="exampleInputPassword1">Password:</label>
+              <label>Password:</label>
               <input type="password" class="form-control" name="password" placeholder="Password">
               </div>
 
               <button type="submit" class="btn btn-primary">Sign In</button>
+
               </form> 
             </div>
           </div>
