@@ -1,5 +1,9 @@
 <?php include("../template/header.php"); ?>
 
+<?php 
+print_r($_POST);
+?>
+
 <div class="col-md-5">
 
 
@@ -27,9 +31,9 @@
                 </div>
 
                 <div class="btn-group" role="group" aria-label="">
-                    <button type="button" class="btn btn-success">Add</button>
-                    <button type="button" class="btn btn-warning">Modify</button>
-                    <button type="button" class="btn btn-danger">Cancel</button>
+                    <button type="button" name="action" value="Add" class="btn btn-success">Add</button>
+                    <button type="button" name="action" value="Modify" class="btn btn-warning">Modify</button>
+                    <button type="button" name="action" value="Cancel" class="btn btn-danger">Cancel</button>
                 </div>
             </form>
         </div>
